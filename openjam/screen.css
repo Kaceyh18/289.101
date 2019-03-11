@@ -123,6 +123,23 @@ body {
 
 #where p {
     text-align: right;
-    margin-right: 40px;
-    color: #bb4488
+    margin-right: 100px;
+    color: #bb4488;
+    font-weight: bold;
+
 }
+
+#when {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(img/wires.png);
+    height: 610px;
+    
+}
+
+#when h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
