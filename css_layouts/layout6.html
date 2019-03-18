@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+       <title> layout 6 </title>
+       <style>
+           * {
+               outline: 1px solid black;
+            
+               }
+           
+           
+           body {
+               margin: 0;
+           }
+           #container {
+               margin: auto;
+               max-width: 800px;
+           }
+           
+           #blue {
+               background-color: blue;
+               display: grid;
+               grid-template-columns: auto 20%;
+               height: 200px;
+           }
+           
+           .yellow {
+               background-color: yellow;
+               margin: 20px; 
+               grid-column: 2/3;
+           }
+           
+           #red {
+               background-color: red;
+               display: grid;
+               grid-template-columns: 30% 70%;
+               height: 400px;
+           }
+           
+           .red-col-right {
+               display: grid;
+               grid-template-columns: 30% 70%;
+           }
+           
+           .yellow2 {
+               background-color: yellow;
+               margin: 20px;
+               max-height: 150px;
+           }
+           .yellow3 {
+               background-color: yellow;
+               margin: 20px;
+           }
+           
+           #green {
+               background-color: lime;
+               height: 200px;
+           }
+       </style>
+       
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="blue">
+                <div class="yellow"></div>
+            </div>
+            <div id="red">
+                <div class="red-col-left"></div>
+                <div class="red-col-right">
+                    <div class="yellow2"></div>
+                    <div class="yellow3"></div>
+                </div>
+            </div>
+        <div id="green"></div>
+        </div>
+    </body>
+    
+</html>

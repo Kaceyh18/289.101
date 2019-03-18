@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+       <title> layout </title>
+       <style>
+           * {
+               outline: 1px solid black;
+           }
+           
+           body {
+               margin: 0;
+           }
+           
+           #container {
+               display: grid;
+               grid-template-columns: 1fr 1fr 1fr 1fr;
+               max-width: 800px;
+               margin-left: auto;
+               margin-right: auto;
+           }
+           
+           #blue {
+               background-color: blue;
+               grid-column: 1/5;
+               height: 200px;
+           }
+        
+           #red {
+               background-color: red;
+               height: 600px;
+           }
+           
+           #green {
+               background-color: lime;
+               grid-column: 2/5;
+           }
+       </style>
+    
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="blue">b</div>
+            <div id="red">r</div>
+            <div id="green">g</div>
+        </div>
+    </body>
+    
+</html>
