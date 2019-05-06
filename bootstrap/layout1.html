@@ -1,0 +1,95 @@
+<!DOCTYPE html/>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <style>
+            * { outline: #FFF solid 8px; }
+            
+            .blue {
+                background-color: #3FB4FF;
+                height: 50px;
+            }
+            
+            .green {
+                background-color: greenyellow;
+                height: 120px;
+            }
+            
+            .orange {
+                background-color: orange;
+                height: 160px;
+            }
+            
+            .grey {
+                background-color: grey;
+                height: 60px;
+            }
+            
+            /*sm*/
+            @media (min-width: 576px) {
+                
+            }
+            /*md*/
+            @media (min-width: 768px) {
+                .green {
+                height: 180px;
+            }
+                
+            }
+            /*lg*/
+            @media (min-width: 992px) {
+                .green {
+                height: 200px;
+                
+            }
+            /*xl*/
+            @media (min-width: 1200px) {
+                .green {
+                height: 280px;
+                
+                
+            }
+        
+        
+        </style>
+    </head>
+    
+    <body>
+    
+        <div class="container-fluid">
+           
+            <div class="row">
+               <div class="col-12 col-lg-6 blue"></div>
+               <div class="col-12 col-lg-6 blue"></div>
+                
+            </div>
+            
+            <div class="row green"></div>
+            
+            <div class="row">
+                <div class="col-12 col-lg-4 orange"></div>
+                <div class="col-12 col-lg-4 orange"></div>
+                <div class="col-12 col-lg-4 orange"></div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                
+            </div>
+         
+        </div>
+    
+    
+    
+    </body>
+    
+</html>

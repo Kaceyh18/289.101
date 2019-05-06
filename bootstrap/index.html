@@ -1,0 +1,65 @@
+<!DOCTYPE html/>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+        <style>
+            * { outline: #EEE solid 1px; }
+        
+        </style>
+    </head>
+    
+    
+    <body>
+        
+        <div class="container">
+           <h1>Grids</h1>
+            
+            <div class="row">
+                 <div class="col-sm-4">4</div>
+                 <div class="col-sm-4">4</div>
+                 <div class="col-sm-4">4</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-6"> 6 </div>
+                <div class="col-6"> 6 </div>
+             </div>
+            <div class="row">
+                <div class="col-12 col-sm-8"> 8/12 </div>
+                <div class="col-6 col-sm-6"> 2/6 </div>
+                <div class="col-6 col-sm-6"> 2/6 </div>
+            
+            </div>
+        </div>
+        
+        <h1>Font Awesome</h1>
+        <i class="fas fa-envelope" style="color: skyblue"></i> hello@gmail.com <br />
+        <i class="fas fa-phone"></i> 0212051507 <br />
+        
+        
+        <h1>Collapsibles</h1>
+        
+        How many days are there in a year?
+        <button data-toggle="collapse" data-target="#answer"> answer button </button>
+        
+        <div id="answer" class="collapse">
+            365.2422
+        </div>
+        
+       <script 
+            src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+       <script src="js/bootstrap.min.js"></script>
+    </body>
+
+
+</html>
