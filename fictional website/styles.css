@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+            #nav {
+                background-color: white;
+                height: 25px;
+                padding-top: 25px;
+                position: fixed;
+                top: 0;
+                padding-left: 30px;
+                
+            }
+            
+            h1 {      
+                padding-bottom: 40px;
+                padding-right: 40px;
+                padding-top: 40px;
+                font-size: 70px;
+                font-family: 'Staatliches', cursive;
+                color: dodgerblue;
+                text-align: right
+            }
+            
+            h2 {
+                color: mediumpurple;
+                font-family: 'Staatliches', cursive; 
+                font-size: 60px;
+            }
+
